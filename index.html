@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Contacto</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   <link rel="stylesheet" href="css.css">
+    </head>
+<body class="tapete">
+
+    <section class="container">
+		<div class="row">
+            <fieldset class="quadro">
+            <legend> <h2>formulario usuario</h2> </legend>
+            
+			<article class="col s6 offset-s3">
+				<form method="POST" action="formulario-contacto.php">
+                   
+                    <div class="input-field">
+						<i class="material-icons prefix">perm_identity</i>
+						<label for="nombre">nome</label>
+						<input type="text" name="nome" required>
+					</div>
+
+					<div class="input-field">
+						<i class="material-icons prefix">person_pin</i>
+						<label for="sobrenome">sobrenome</label>
+						<input type="text" name="sobrenome" required>
+					</div>
+					
+					<div class="input-field">
+						<i class="material-icons prefix">email</i>
+						<label for="email">Email</label>
+						<input type="email" name="email" required>
+					</div>
+
+					<div class="input-field">
+						<i class="material-icons prefix">person_pin</i>
+						<label for="contato">contato</label>
+						<input type="text" name="contato" required>
+					</div>
+					
+					<p class="center-align">
+						<button class="waves-effect waves-light btn" type="submit"><i class="material-icons right">send</i>enviar</button>
+					</p>
+                </section>
+				</form>
+
+			</article>
+		</div>
+	
+
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
+</html>
